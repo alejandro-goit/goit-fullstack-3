@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --naranja-principal: #ff6c00;
+}
+
+.logo-principal * {
+  fill: blue;
+}
+
+.logo-principal *:hover {
+  fill: orange;
+}
+
+.contenedor-principal {
+  background-color: rgb(94, 94, 94);
+  padding-left: 100px;
+  padding-right: 55px;
+  padding-top: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-enlace {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.nav-enlace:hover {
+  color: var(--naranja-principal);
+}
+
+.button-service {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+}
+
+.button-service:hover {
+  background-color: var(--naranja-principal);
+}
+
+.titulo {
+  font-family: "Raleway", sans-serif;
+}
