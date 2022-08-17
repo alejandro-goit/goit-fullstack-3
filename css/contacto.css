@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+body {
+  background-color: #191c26;
+  color: #ffffff;
+  font-family: "Open Sans";
+}
+
+.titulo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+}
+
+.principal {
+  display: flex;
+}
+
+/* Seccion servicio */
+
+.servicio {
+  flex-basis: 50%;
+  padding: 130px 50px 130px 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-input {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border-bottom: 2px solid rgba(157, 164, 189, 0.4);
+  padding: 10px;
+  width: 45%;
+}
+
+.contenedor-mensaje {
+  margin-top: 50px;
+}
+
+.form-label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+  flex-basis: 100%;
+}
+
+.form-text {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border-bottom: 2px solid rgba(157, 164, 189, 0.4);
+  width: 100%;
+  resize: none;
+}
+
+.send {
+  padding: 12px 40px;
+  width: 160px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+/* Seccion contacto */
+
+.contacto {
+  flex-basis: 50%;
+  padding: 130px 50px 130px 50px;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 50px;
+}
