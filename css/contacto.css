@@ -51,7 +51,7 @@ body {
   margin-top: 50px;
 }
 
-.form-label {
+.form-label, .form-input::placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -67,7 +67,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   color: white;
   border: none;
-  border-bottom: 2px solid rgba(157, 164, 189, 0.4);
+  border-bottom: 2px solid rgba(157, 164, 189, 0.5);
   width: 100%;
   resize: none;
 }
