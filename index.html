@@ -7,41 +7,44 @@
     <title>Barberia</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <aside>
-      <svg class="logo-principal">
+  <body class="body">
+    <aside class="barra-lateral">
+      <svg class="barra-lateral__logo-principal">
         <use href="./imagenes/sprites.svg#icon-logo"></use>
       </svg>
-      <div>
-        <a href="https://instagram.com">Instagram</a>
-        <a href="https://youtube.com">Youtube</a>
+      <div class="nav-secundario">
+        <a class="nav-secundario__enlace" href="https://instagram.com"
+          >Instagram</a
+        >
+        <a class="nav-secundario__enlace" href="https://youtube.com">Youtube</a>
       </div>
     </aside>
     <section class="contenedor-principal">
       <header class="header">
-        <span> LOGO </span>
         <nav>
-          <a class="nav-enlace" href="">About</a>
-          <a class="nav-enlace" href="">Services and Prices</a>
-          <a class="nav-enlace" href="">Barbers</a>
-          <a class="nav-enlace" href="./contacto.html">Contacts</a>
+          <a class="header__enlace" href="">About</a>
+          <a class="header__enlace" href="">Services and Prices</a>
+          <a class="header__enlace" href="">Barbers</a>
+          <a class="header__enlace" href="./contacto.html">Contacts</a>
         </nav>
         <div>
-          <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
-          <button class="button-service">Book a Service</button>
+          <a class="header__enlace" href="tel:+38 044 111 11 11"
+            >+38 044 111 11 11</a
+          >
+          <button class="header__button-service">Book a Service</button>
         </div>
       </header>
-      <main>
-        <span>A hair salon for men in Kyiv</span>
+      <main class="contenido">
+        <h2 class="contenido__subtitulo">A hair salon for men in Kyiv</h2>
         <h1 class="titulo">BarberShop</h1>
-        <p>
+        <p class="contenido__descripcion">
           We are experts in trendy men's haircuts. <br />
           We work quickly, carefully, and tastefully.
         </p>
       </main>
-      <footer>
-        <button>Back</button>
-        <button>Next</button>
+      <footer class="footer">
+        <button class="footer__boton">Back</button>
+        <button class="footer__boton">Next</button>
       </footer>
     </section>
   </body>
